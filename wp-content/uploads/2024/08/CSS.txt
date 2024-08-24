@@ -1,0 +1,65 @@
+@media ( max-width: 600px ) {
+	.site-footer-widget .widget_custom_html {
+	margin-bottom: 25px;
+}	
+}
+.site-header-inner .woostify-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    max-height: 70px;
+}
+
+.primary-navigation li.current-menu-item a {
+    color: #FA6E49;
+}
+
+/*** Single Product Page ***/
+
+h1.product_title.entry-title {
+    font-family: 'Outfit',Poppins,sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+	  color: #1d2128;
+}
+.product-summary .price {
+		font-family: 'Outfit',Poppins,sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #1d2128;
+}
+
+.single-product .tinvwl_add_to_wishlist_button {
+    font-family: 'Outfit',Poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+	  color: #1346af;
+}
+
+.single-product .tinvwl_add_to_wishlist_button:hover {
+	  color: #000000;
+}
+
+.tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart:before {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.cart:not(.elementor-menu-cart__products) .quantity {
+    border: 1.5px solid #e8e8e8;
+    border-radius: 0px;
+}
+
+button.single_add_to_cart_button.button.alt {
+    border-radius: 0;
+}
+
+.single_add_to_cart_button.button {
+    font-family: 'Outfit',Poppins,sans-serif;
+    font-size: 14px!important;
+    text-transform: capitalize;
+    letter-spacing: 1px;   
+}
+
+
